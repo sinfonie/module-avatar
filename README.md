@@ -1,0 +1,1 @@
+## Sinfonie Avatar module
