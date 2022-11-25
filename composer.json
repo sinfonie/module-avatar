@@ -1,0 +1,21 @@
+{
+    "name": "sinfonie/module-avatar",
+    "version": "1.0.0",
+    "description": "Module adds customer avatar",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*",
+        "magento/module-customer": "*"
+    },
+    "license": [
+        "Proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Sinfonie\\Avatar\\": ""
+        }
+    }
+}

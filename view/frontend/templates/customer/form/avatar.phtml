@@ -1,0 +1,24 @@
+<?php
+
+use Sinfonie\Avatar\Block\Customer\Avatar;
+
+/** @var Avatar $block */
+
+?>
+
+<div class="field choice">
+    <div class="control">
+        <label class="label" for="avatar">
+            <span><?= /* @noEscape  */ __('Avatar') ?></span>
+        </label>
+        <input type="file"
+               name="avatar"
+               id="avatar"
+               title="<?= /* @noEscape  */ __('Avatar') ?>"
+               class="input-text"
+               data-validate="{required:false}">
+    </div>
+</div>
+<div>
+    <img src="<?= $block->getAvatarLink(); ?>" alt="<?= /* @noEscape  */ __('Avatar') ?>"/>
+</div>
